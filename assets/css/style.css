@@ -1,0 +1,51 @@
+* {
+    border: solid red 1px;
+}
+/* CSS for the Header */
+header {
+    width: 100%;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #111;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0%;
+}
+/* CSS for the Nav Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+    margin: 0;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+  }
+  
+li a:hover {
+    background-color: #111;
+    margin: 0;
+  }
+
+/* CSS for the Body */
+body {
+    background-color: #e3f3fa;
+    margin-top: 24px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 24px;
+}
