@@ -1,9 +1,8 @@
 * {
-    border: solid red 1px;
 }
 
 :root{
-    --maincolor: rgba(111, 111, 111, 0.109);
+    --maincolor: rgb(53, 53, 53);
     --secondary: lightblue;
 }
 
@@ -17,16 +16,12 @@ header {
     color: #ffffff;
     position: fixed;
     top: 0;
-    left: 0%;
+    left: 0;
 }
 /* CSS for the Nav Bar */
-header {
-    display: flex;
-}
 
 ul {
     display: flex;
-    /* justify-content: flex-end; */
     align-items: center;
     list-style-type: none;
     margin: 0;
@@ -35,12 +30,9 @@ ul {
     background-color: rgb(0, 0, 0);
   }
   
-li {
-    margin: 0;
-  }
-  
-li a {
+  ul li {
     display: block;
+    font-size: 16px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -80,23 +72,40 @@ p {
     
 }
 h1 {
-    color: red;
+    color: var(--maincolor);
     font-size: 2.4rem;
     text-align: center;
     padding-top: 40px;
 }
 
+.intro {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 h2 {
     color: var(--maincolor);
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
     padding-top: 0px;
 }
 
-article{
+article {
     text-align: center;
     margin-right: 25%;
     margin-left: 25%;
+}
+
+writing {
+    text-align: left;
+    font-size: 1.3em;
+}
+
+writing li a {
+    color: orange;
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: left;
 }
 
 footer {
